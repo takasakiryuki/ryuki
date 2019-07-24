@@ -1,25 +1,315 @@
-い。
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>タダケンのEnjoy Tech GitHub Pages Sample</title>
-    <!--今回はサンプルのためMarxというシンプルでそれでいて小奇麗なCSSを使っています-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Webデザイナーヤマダハナコ ポートフォリオ'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content='Webデザイナーヤマダハナコのポートフォリオです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Webデザイナーヤマダハナコのポートフォリオです。" />
+  <title>高崎　竜輝 ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
 
-  <body>
-    <main>
-      <h1>GitHub Pages のサンプルです</h1>
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <h1 class="logo">
 
-      <a href="https://tadaken3.hatenablog.jp/"><button>タダケンのEnjoy Tech に行く</button></a>
-      <a href="https://irie-dev.co/"><button>入江開発室 に行く</button></a>
+        <span class="logo-title">PORTFOLIO</span>
+        <span class="logo-desc">高崎　竜輝</span>
+      </h1>
+    </header>
+    <nav id="gnav">
+      <ul>
 
-   </main>
-   <script>
-     <!--JavaSciptの動作確認のため、console.logに出力しています-->
-     console.log('JavaScriptも動きます');
-   </script>
-  </body>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main id="contents">
+
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">WORKS</h2>
+            <div class="section-desc">
+              <p class="text">
+                これまでの制作実績です。</p>
+            </div>
+          </div>
+          <div class="card-wrapper my-gallery">
+            <figure class="card">
+              <a href="img/works/work01.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/work01.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">問合せフォーム</p>
+                <p class="card-caption-info">php</p>
+                <p class="card-caption-url"><a class="url-link" href="http://localhost:8888/問い合わせフォーム/COMPANY.php" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="img/works/work02.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work02.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">画像アップロード</p>
+                <p class="card-caption-info">php</p>
+                <p class="card-caption-url"><a class="url-link" href="http://localhost:8888/sample5/index.php" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="img/works/work03.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work03.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">ワンピースRPG</p>
+                <p class="card-caption-info">php</p>
+                <p class="card-caption-url"><a class="url-link" href="http://localhost:8888/ワンピース/index.php" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="img/works/work04.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work04.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">作品タイトル</p>
+                <p class="card-caption-info">Design / Coding</p>
+                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="img/works/work05.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work05.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">作品タイトル</p>
+                <p class="card-caption-info">Design / Coding</p>
+                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="img/works/work06.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work06.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">作品タイトル</p>
+                <p class="card-caption-info">Design / Coding</p>
+                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">ABOUT</h2>
+            <p class="section-desc">
+
+            </p>
+          </div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image">
+              <img src="img/profile/img_profile.png" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">
+                基本情報技術者試験の学習　1ヶ月<br>
+                Java研修　2ヶ月<br>
+                html,css,php研修　2ヶ月<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">SKILL</h2>
+            <p class="section-desc">
+
+            </p>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">HTML/CSS</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text"></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">JavaScript</h3>
+                <div class="rating">
+                  <p class="rate rate1"></p>
+                </div>
+                <p class="text"></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">php</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text"></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Java</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text"></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">SQL</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="contact-list">
+              <ul>
+                <li>・電話番号:070-4311-5689</li>
+                <li>・メールアドレス:upquat0103@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
 </html>
